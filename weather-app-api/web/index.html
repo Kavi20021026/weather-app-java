@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App API</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <main class="page">
+        <section class="hero">
+            <p class="eyebrow">Java API Project</p>
+            <h1>Weather App</h1>
+            <p class="subtitle">Search any city and view live weather data .</p>
+
+            <form id="weather-form" class="search-card">
+                <label for="city">City Name</label>
+                <div class="search-row">
+                    <input id="city" name="city" type="text" placeholder="Enter a city like Colombo" required>
+                    <button type="submit">Check Weather</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="result" class="result-card hidden"></section>
+        <p id="status" class="status-text"></p>
+    </main>
+
+    <div class="copyright">
+      <p>© 2026 Kavindu M Dissanayaka | Web Developer | Sri Lanka</p>
+
+    </div>
+</div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
